@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1529854140025-25995121f16f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.body-container {
+  background-color: rgba(70, 66, 49, 0.8);
+  padding: 5em;
+  border-radius: 5%;
+  margin-bottom: 5em;
+}
+
+.heading {
+  padding: 5em 0;
+}
+
+.name-container,
+.email-container,
+.rating-container,
+.best-container,
+.options,
+.recommend-container,
+.improve-container,
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+
+input,
+select,
+textarea,
+button {
+  background-color: rgba(70, 66, 49, 0.705);
+  padding: 0.5em;
+}
+
+select,
+textarea,
+button {
+  width: 100%;
+}
