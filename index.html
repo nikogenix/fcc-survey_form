@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey of this survey.</p>
+    <form action="" id="survey-form">
+      <div class="name-container">
+        <label for="" id="name-label">Name: </label
+        ><input type="text" id="name" required placeholder="Your name" />
+      </div>
+
+      <div class="email-container">
+        <label for="" id="email-label">Email: </label
+        ><input type="email" id="email" required placeholder="Your email" />
+      </div>
+
+      <div class="rating-container">
+        <label for="" id="number-label">Survey rating: </label
+        ><input
+          type="number"
+          name=""
+          id="number"
+          min="0"
+          max="10"
+          placeholder="Your rating"
+        />
+      </div>
+
+      <div class="best-container">
+        <label for="" id="dropdown-label"
+          >What is the best part of this survey?
+          <div>
+            <select name="" id="dropdown" class="options">
+              <option value="survey">The survey</option>
+              <option value="questions">The questions</option>
+              <option value="answers">The answers</option>
+              <option value="n/a">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </label>
+      </div>
+
+      <div class="recommend-container">
+        <label for=""
+          >Would you recommend this survey to a friend?
+          <div class="options">
+            <input type="radio" name="recommend" id="" value="Definitely" />
+            <label for="Definitely">Definitely</label>
+            <input type="radio" name="recommend" id="" value="Maybe" />
+            <label for="Maybe">Maybe</label>
+            <input type="radio" name="recommend" id="" value="Not sure" />
+            <label for="Not-sure">Not sure</label>
+            <input type="radio" name="recommend" id="" value="No" />
+            <label for="No">No</label>
+          </div>
+        </label>
+      </div>
+
+      <label for=""
+        >What should we improve about this survey?
+        <div class="options">
+          <input type="checkbox" name="" id="" value="survey" />
+          <label for="">The survey</label>
+          <input type="checkbox" name="" id="" value="else" />
+          <label for="">Something else</label>
+          <input type="checkbox" name="" id="" value="idk" />
+          <label for="">I don't know</label>
+          <input type="checkbox" name="" id="" value="nothing" />
+          <label for="">Nothing</label>
+        </div>
+      </label>
+
+      <div class="comments-container">
+        <label for="comments">Any other comments or suggestions?</label>
+        <div class="comment-box">
+          <textarea name="comments" rows="5"></textarea>
+        </div>
+      </div>
+
+      <button id="submit" type="submit">Submit the survey survey</button>
+    </form>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+
+"></script>
+</html>
